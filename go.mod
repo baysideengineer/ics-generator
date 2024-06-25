@@ -1,3 +1,3 @@
-module github.com/anujdecoder/ics
+module baysideengineer/ics-generator
 
-go 1.12
+go 1.22.2
