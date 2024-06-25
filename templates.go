@@ -22,13 +22,15 @@ DESCRIPTION:{{.Description}}
 CLASS:{{.Class}}
 UID:{{.UID}}
 STATUS:{{.Status}}
+URL:{{.URL}}
 END:VEVENT`
 
 type vEvent struct {
-	*Event
-	DtStamp     string
-	DtEnd       string
-	DtStart     string
-	ExDate      []string
-	Description string
+  *Event
+  DtStamp     string
+  DtEnd       string
+  DtStart     string
+  ExDate      []string
+  Description string
+  URL         string
 }
